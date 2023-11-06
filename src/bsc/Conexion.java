@@ -18,12 +18,6 @@ public class Conexion {
             String url = "jdbc:mysql://localhost/BSC2023";
             String usuario = "usuario";
             String pass = "password";
-            /*
-            //Establecer la conexión con la base de datos en Mac
-            String url = "jdbc:mysql://localhost:8889/BSC2023";
-            String usuario = "root";
-            String pass = "root";
-            */
             
             conexion = DriverManager.getConnection(url, usuario, pass);
         } catch (SQLException sqle) {
